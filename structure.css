@@ -1,0 +1,86 @@
+body{
+    font-family:'Noto Serif', serif;
+    margin: 0px;
+    overflow-x: hidden;
+}
+h1 {
+    font-size: 50px;
+    line-height: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.colorname {
+ color: #ecfc03;
+}
+.half-width {
+    width: 42%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 3%;
+    padding-bottom: 10%;
+    line-height: 33px;
+}
+.half-width img {
+    width: 95%;
+    margin-top: 6%;
+    margin-right:40%;
+}
+.banner {
+    background-image: url("images/banner.png");
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+}
+section {
+  height: 500px;
+}
+.link-button {
+    background-color: orange;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-image: linear-gradient( Tomato , Orange );
+}
+h2 {
+    font-size: 40px;
+}
+.half-width2 {
+    width: 42%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.about {
+    height: 40px;
+}
+.project {
+    clear: both;
+    margin-left: 32%;
+}
+.project-box {
+    width: 80%;
+}
+.project-box img {
+    width: 100%;
+}
+.project-box h2 {
+    font-size: 18px;
+}
+.project-box p {
+    font-size: 14px;
+}
+
+.project-box .project1 , .project2 , .project3  {
+    width: 25%;
+    display: inline-block;
+    float: left;
+
+}
+
+.project-box h2, p{
+    clear:both;
+    margin: 25px 0 8px 0;
+}
+
